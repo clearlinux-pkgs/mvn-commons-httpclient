@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-httpclient
 Version  : 3.1
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
 Source0  : https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
 Source1  : https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.0/commons-httpclient-3.0.pom
@@ -32,14 +32,14 @@ data components for the mvn-commons-httpclient package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/t/3.1
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/t/3.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.1
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.1
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/t/3.1
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/t/3.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.0
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.0
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/t/3.0
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/t/3.0
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.1
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.1
 
 
 %files
@@ -47,6 +47,6 @@ cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/commons-httpclient/t/3.
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/commons-httpclient/t/3.0/commons-httpclient-3.1.pom
-/usr/share/java/.m2/repository/commons-httpclient/t/3.1/commons-httpclient-3.0.pom
-/usr/share/java/.m2/repository/commons-httpclient/t/3.1/commons-httpclient-3.1.jar
+/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.0/commons-httpclient-3.0.pom
+/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
+/usr/share/java/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom
