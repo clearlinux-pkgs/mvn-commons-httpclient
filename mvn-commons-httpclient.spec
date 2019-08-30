@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-httpclient
 Version  : 3.1
-Release  : 3
+Release  : 4
 URL      : https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
 Source0  : https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
 Source1  : https://repo.maven.apache.org/maven2/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar
